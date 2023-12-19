@@ -34,7 +34,7 @@ Vous avez importé un ou plusieurs tableaux de bord dans Grafana, mais vous ne s
 
 ## Créer/Copier des Variables
  >Je vous recommande pour cette opération d'ouvrir un onglet pour chacun des Dashboards, cela facilitera grandement la copie ou réplication de variables d'un Dashboard à l'autre.
- >
+>
 > Sur la page principale, cliquer sur les **< paramètres >** en haut à droite représente par un engrenage.
 > ![](http://93.90.205.194/docs/bbb-dashboard/parameters-gear.png)
 > ##
