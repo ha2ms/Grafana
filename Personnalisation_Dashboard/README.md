@@ -190,7 +190,7 @@ Vous avez importé un ou plusieurs tableaux de bord dans Grafana, mais vous ne s
 >  Mettez à jour vos couleurs dans la section **< Thresholds >** tout en bas, pensez également à en ajouter un second pour définir le seuil limite.
 >  ![](http://93.90.205.194/docs/bbb-dashboard/bar-thresholds.jpg)
 ---
->  Pour finir, définir dans la section **<>** encore plus bas la valeur à **<>**
+>  Pour finir, définir dans la section **<Show Thresholds>** encore plus bas la valeur à **<As Filled Region>**
 >  ![](http://93.90.205.194/docs/bbb-dashboard/bar-thresholds-show.png)
 >  
 >  Et voila !
