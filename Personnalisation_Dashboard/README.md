@@ -70,13 +70,15 @@ Vous avez importé un ou plusieurs tableaux de bord dans Grafana, mais vous ne s
 > Pour ne pas garder seulement les valeurs qui vous intéressent vous pouvez soit exclure la valeur qui dérange, soit inclure celles qui vous intéressent.
 ---
 
---- Inclusion: 
+---
+Inclusion: 
 > ![](http://93.90.205.194/docs/bbb-dashboard/all-server-cpu-query-include.png)On ajoute un filtre **< instance >** à notre requête, pensez bien au **< =~ >**, qui nous permet d'utiliser des **expressions régulières comme **< .\* >**, qui **"englobe toutes les occurrences"** précédentes ou suivantes selon qu'il soit placé avant ou après votre valeur de référence.
 > 
 > Donc la syntaxe **<.\*cloudns.\*>** signifie que toutes les occurrences suivantes et précédentes à **< cloudns >** sont acceptées, pour simplifier, tout ce qui contient **< cloudns >** sera accepté.
 ---
 
---- Exclusion
+---
+Exclusion
 > ![](http://93.90.205.194/docs/bbb-dashboard/all-server-cpu-query-exclude.png)
 > De la même manière que l'inclusion, on peut également exclure les instances que l'on ne souhaite pas voir s'afficher sur ce panel avec le symbole **< !~ >** .
 > 
